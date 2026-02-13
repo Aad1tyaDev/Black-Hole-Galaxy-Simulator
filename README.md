@@ -29,7 +29,7 @@ An interactive N-body physics simulation featuring black holes, gravitational dy
 
 ## Demo
 
-[Live Demo](#) <!-- Add your GitHub Pages link here -->
+[Live Demo](https://aad1tyadev.github.io/Black-Hole-Galaxy-Simulator/)
 
 ## Installation
 
@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Aaditya.D - [GitHub](https://github.com/Aad1tyaDev)
+Aad1tyaDev - [GitHub](https://github.com/Aad1tyaDev)
 
 ---
 
