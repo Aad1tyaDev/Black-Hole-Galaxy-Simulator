@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Black Hole Galaxy Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- UI PANEL -->
+  <div id="ui">
+    <label>Speed:</label>
+    <input id="speed" type="range" min="1" max="200" value="50" />
+    <span id="speedVal">1.00x</span>
+    <br />
+    <label>Gravity G:</label>
+    <input id="grav" type="range" min="5" max="200" value="40" />
+    <span id="gravVal">0.40</span>
+    <br />
+    <label>Softening ε:</label>
+    <input id="soft" type="range" min="1" max="50" value="10" />
+    <span id="softVal">10.0</span>
+    <br />
+    <label>Zoom:</label>
+    <input id="zoom" type="range" min="20" max="200" value="100" />
+    <span id="zoomVal">1.0x</span>
+    <br /><br />
+    <label><input type="checkbox" id="useRK4" checked /> RK4 Integrator</label><br />
+    <label><input type="checkbox" id="useQuad" checked /> Quad-Tree Gravity</label><br />
+    <label><input type="checkbox" id="showDebug" checked /> Show Debug</label>
+    <div class="hint">
+      Keys: Space=pause, R=reset, T=trails, +/-=G, Z/X=ε, B=binary BH,
+      C=comet, G=galaxy collision, K=save, L=load
+    </div>
+  </div>
+
+  <!-- HUD PANEL -->
+  <div id="hud">
+    <div id="metrics"></div>
+    <div id="physics-info"></div>
+  </div>
+
+  <!-- Main canvas -->
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
