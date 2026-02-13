@@ -36,7 +36,7 @@ An interactive N-body physics simulation featuring black holes, gravitational dy
 Clone the repository and open `index.html` in a modern web browser:
 
 ```bash
-git clone https://github.com/yourusername/black-hole-galaxy-simulator.git
+git clone https://github.com/Aad1tyaDev/black-hole-galaxy-simulator.git
 cd black-hole-galaxy-simulator
 # Open index.html in your browser
 ```
@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Aaditya.D - [Your GitHub](https://github.com/Aad1tyaDev)
+Aaditya.D - [GitHub](https://github.com/Aad1tyaDev)
 
 ---
 
